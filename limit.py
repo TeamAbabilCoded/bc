@@ -49,8 +49,8 @@ if not os.path.exists('session'):
 if len(sys.argv) < 2:
     print( Fore.RED + '\n\nUsage : python main.py +62' + Fore.RESET)
     sys.exit(1)
-api_id = 1148490
-api_hash = 'd82c81323285aeb9c2ba9ee420d8b009'
+api_id = 20654652
+api_hash = '8760f639b5aa205b756361fb226dfceb'
 phone_number = sys.argv[1]
 client = TelegramClient('session/' + phone_number, api_id, api_hash)
 client.connect()
